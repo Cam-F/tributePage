@@ -1,0 +1,111 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html,
+body {
+  text-align: center;
+  min-width: 260px;
+  margin: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#title {
+  padding-top: 3%;
+}
+h1,
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+#career {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 10px 20px 20px;
+  background-color: rgb(231, 227, 227);
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+li {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+}
+blockquote {
+  font-style: italic;
+}
+#image {
+  max-width: 60%;
+  padding-bottom: 1%;
+  display: block;
+  margin: auto;
+}
+#icon-bar {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon {
+  padding: 8px;
+  max-width: 12.5%;
+  max-height: 50px;
+}
+#icon-bar img {
+  transition: all 0.7s ease;
+}
+#icon-bar img:hover {
+  background-color: #9999;
+  border-radius: 10px;
+}
+#img-caption {
+  font-family: "Courier New", Courier, monospace;
+}
+.social-icons {
+  padding: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline;
+}
+.fa-linkedin {
+  padding: 10px 14px;
+  border-radius: 5px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+  color: white;
+}
+.fa-github {
+  padding: 10px 14px;
+  border-radius: 5px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fa-github:hover {
+  background-color: black;
+  color: white;
+}
+.fa-codepen {
+  padding: 10px 14px;
+  border-radius: 5px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fa-codepen:hover {
+  background-color: violet;
+  color: white;
+}
